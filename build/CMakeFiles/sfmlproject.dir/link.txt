@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/sfmlproject.dir/src/main.cpp.o -o sfmlproject   -L/home/master/sfmlproject/SFML/lib  -Wl,-rpath,/home/master/sfmlproject/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system 

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/master/sfmlproject/build",
+  "command": "/usr/bin/g++  -I/home/master/sfmlproject/SFML/include -g -o CMakeFiles/sfmlproject.dir/src/main.cpp.o -c /home/master/sfmlproject/src/main.cpp",
+  "file": "/home/master/sfmlproject/src/main.cpp"
+}
+]
