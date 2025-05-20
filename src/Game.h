@@ -8,8 +8,8 @@ public:
 
     void run()
     {
-        sf::RenderWindow window(sf::VideoMode({200, 200}), "Game");
-        sf::CircleShape shape(100.f);
+        sf::RenderWindow window(sf::VideoMode({800, 600}), "Game");
+        sf::CircleShape shape(20.f);
         shape.setFillColor(sf::Color::Green);
 
         while (window.isOpen())
@@ -20,6 +20,14 @@ public:
                     window.close();
                 if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape))
                     window.close();
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
+                    shape.move(sf::Vector2f(-5.f, 0.f));
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
+                    shape.move(sf::Vector2f(5.f, 0.f));
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
+                    shape.move(sf::Vector2f(0.f, -5.f));
+                if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
+                    shape.move(sf::Vector2f(0.f, 5.f));
             }
 
             window.clear();
