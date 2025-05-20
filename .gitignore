@@ -6,3 +6,9 @@
 /build
 /build/
 /.build/
+*vscode
+*/vscode
+*.vscode
+*.build
+*.build/
+*/build/
